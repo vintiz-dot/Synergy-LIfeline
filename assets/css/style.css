@@ -11,6 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
+@font-face {font-display: swap;}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
