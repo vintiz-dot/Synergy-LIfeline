@@ -1,17 +1,16 @@
-/**
-* Template Name: Mentor - v4.7.0
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 html {
   scroll-behavior: smooth;
 }
-@font-face {font-display: swap;}
+@font-face {
+  font-family: bootstrap-icons;
+  src: url(assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: bootstrap-icons;
+  src: url(assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2);
+  font-display: swap;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
