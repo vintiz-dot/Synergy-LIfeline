@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -58,6 +59,7 @@
   </head>
 
   <body>
+    
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
@@ -194,12 +196,12 @@
         </div>
       </div>
       <!-- End Breadcrumbs -->
-      <div
+      <div id="call-us"
         class="breadcrumbs bg-warning col-lg-3 col-md-6 mt-4 mt-md-0"
         data-aos="fade-in"
         style="position: fixed; bottom: 0; z-index: 100; width: 100% ; padding-top: 20px;  height: 15%;"
       >
-        <div><h4><a href="tel:+2348186566561" style="color:white; text-align: center; font-size: 100%; padding-bottom: 25%;"><i class="bi bi-telephone"> </i>Contact Us for All Your Exam Registration </a> </h4> </div>
+        <div ><h4><a href="tel:+2348186566561" style="color:white; text-align: center; font-size: 100%; padding-bottom: 25%;"><i class="bi bi-telephone"> </i>Contact Us for All Your Exam Registration </a> </h4> </div>
       </div>
       <!-- ======= Pricing Section ======= -->
       <section >
@@ -342,6 +344,8 @@
             </div>
 
             
+
+
             <div class=" columns" id="sat-class">
               <div >           
                 <ul class="price">
@@ -385,12 +389,88 @@
                 </ul>                
               </div>
             </div>
+            
+            <button style="border: none; width: 100%; margin-top: 40px; height: 60px;font-size: 100%; " class="button price private-class btn-buy bg-main">Click Here For More Information On Private Classes</button>
+
+            <!-- Begining of more pricing popuo -->
 
            
+            <div style="width: 100%;" id="privateClass" class="hidden private-container">
+              
+              <div class="breadcrumbs " style="background-color: white; margin-bottom: 20px;">
+                <div class="container">
+                  <h2 style="padding-top: 30px;font-size: 36px;
+                  color: #5fcf80;
+                  font-weight: 600;
+                  font-family: Poppins, sans-serif;">Synergy Lifeline Consulting Prices for Private Classes</h2>
+                
+                </div>
+              </div>
+              
+             
+              <button class="close-modal">&times;</button>
+
+            <div class="col-lg-8 col-md-8 col-sm-12  align-items-center" style="margin: auto;">
+              <form >
+                
+                <div class="row">
+                  <div class="col-25">
+                    <label for="Location">Location</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="location" name="Location"  >
+                      <option value="" selected disabled>Please select</option>
+                      <option value="6">Synergy LifeLine Classroom</option>
+                      <option value="8">Client's Preferred Location</option>                      
+                    </select>
+                  </div>
+                </div>
+
+               <div class="row">
+                  <div class="col-25">
+                    <label >Number of Classes per Week</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="contacts-week" name="contact-week">
+                      <option value="" selected disabled>Please select</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-25">
+                    <label for="hours">Number of Hours Per Class</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="hours" name="hours"  >
+                      <option value="" selected disabled>Please select</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>                      
+                    </select>
+                  </div>
+                </div>
+
+
+                <div class="row" id="private-price" style="margin-top: 30px;">
+                  
+                </div>
+              </form>
+            </div> 
+          </div>
+
+            
+
+            <!-- end of more pricing popup -->
+           
       <!-- End Pricing Section -->
+      <div class="overlay hidden"></div>
     </main>
     <!-- End #main -->
-
+  
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="footer-top">
@@ -504,6 +584,6 @@
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-
+    
      </body>
 </html>
