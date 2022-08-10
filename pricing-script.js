@@ -45,7 +45,7 @@ function privateCost() {
   privatePrice.innerHTML = "";
   let price =
     4 * +venue.value * +hourOfContacts.value * +numberOfContacts.value;
-  const htmlPrice = ` <p style="margin: auto;width: 50%;
+  const htmlPrice = ` <p style="margin: auto;
 font-size: 36px;
 color: #5fcf80;
 font-weight: 600;
