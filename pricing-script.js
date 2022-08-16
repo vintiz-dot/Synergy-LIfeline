@@ -37,8 +37,6 @@ numberOfContacts.addEventListener("change", privateCost);
 function toggleHidden() {
   overlay.classList.toggle("hidden");
   privateContainer.classList.toggle("hidden");
-  //   header.classList.toggle("hidden");
-  //   footer.classList.toggle("hidden");
 }
 
 function privateCost() {
