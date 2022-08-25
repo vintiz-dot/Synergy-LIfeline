@@ -1,0 +1,23 @@
+{
+  "name": "synergy-lifeline",
+  "version": "1.0.0",
+  "description": "synergy's website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vintiz-dot/Synergy-LIfeline.git"
+  },
+  "keywords": [
+    "synergy",
+    "lifeline"
+  ],
+  "author": "victor moronu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vintiz-dot/Synergy-LIfeline/issues"
+  },
+  "homepage": "https://github.com/vintiz-dot/Synergy-LIfeline#readme"
+}
