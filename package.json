@@ -2,9 +2,9 @@
   "name": "synergy-lifeline",
   "version": "1.0.0",
   "description": "synergy's website",
-  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,15 @@
     "lifeline"
   ],
   "author": "victor moronu",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/vintiz-dot/Synergy-LIfeline/issues"
   },
-  "homepage": "https://github.com/vintiz-dot/Synergy-LIfeline#readme"
+  "homepage": "https://github.com/vintiz-dot/Synergy-LIfeline#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
 }

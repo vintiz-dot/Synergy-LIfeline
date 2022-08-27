@@ -1,16 +1,16 @@
 html {
   scroll-behavior: smooth;
 }
-@font-face {
+/* @font-face {
   font-family: bootstrap-icons;
-  src: url(assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff);
+  src: url("bootstrap-icons.woff");
   font-display: swap;
 }
 @font-face {
   font-family: bootstrap-icons;
-  src: url(assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2);
+  src: url("assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2");
   font-display: swap;
-}
+} */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
