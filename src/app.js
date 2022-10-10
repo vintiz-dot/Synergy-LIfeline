@@ -2,7 +2,7 @@ const path = require("path");
 const express = require("express");
 const app = express();
 const hbs = require("hbs");
-
+const PORT = process.env.PORT || 3000;
 const viewsPath = path.join(__dirname, "../templates/views");
 const publicFolder = path.join(__dirname, "../public");
 const partialsPath = path.join(__dirname, "../templates/partials");
@@ -108,4 +108,4 @@ app.get("/trainers", (_req, res) => {
 app.get("*", (_req, res) => {
   res.render("404", { name: "Synergy Lifeline Consulting" });
 });
-app.listen(5000, () => console.log("started sever sucesfullly"));
+app.listen(PORT, () => console.log("started sever sucesfullly"));
