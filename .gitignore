@@ -1,4 +1,7 @@
-.parcel-cache/0c77fd9cc0e310eb
+dist
+.parcel-cache
+node_modules
+parcel-cache/0c77fd9cc0e310eb
 node_modules/.package-lock.json
 node_modules/.bin/acorn
 node_modules/.bin/acorn.cmd
