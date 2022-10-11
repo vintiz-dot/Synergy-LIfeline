@@ -1,4 +1,8 @@
 dist
+.env
+.gitignore
+.package-lock.json
+synery.zip
 .parcel-cache
 node_modules
 parcel-cache/0c77fd9cc0e310eb
@@ -4205,7 +4209,9 @@ node_modules/yaml/types/timestamp.js
 .parcel-cache/feb2447e385ea40c
 .parcel-cache/ffa969c35e3d7136
 .parcel-cache/lock.mdb
-
+package-lock.json
+package.json
+.gitignore
 .parcel-cache/0a814384ff3dbe2c
 .parcel-cache/0b8c4895234f50ff
 .parcel-cache/1dd7c4186a2bcf61
@@ -4289,3 +4295,6 @@ node_modules/yaml/types/timestamp.js
 .parcel-cache/f73182586c5a3e72
 .parcel-cache/f77374046e42b8c3
 .parcel-cache/fbd8997b0dbc5bfd.txt
+synergy.zip
+package-lock.json
+src/app.js

@@ -1,4 +1,6 @@
+require("dotenv").config();
 const path = require("path");
+const cors = require("cors");
 const express = require("express");
 const app = express();
 const hbs = require("hbs");
@@ -8,7 +10,7 @@ const publicFolder = path.join(__dirname, "../public");
 const partialsPath = path.join(__dirname, "../templates/partials");
 
 hbs.registerPartials(partialsPath);
-
+app.use(cors({ origin: process.env.REMOTE_CLIENT_APP, credentials: true }));
 app.set("view engine", "hbs");
 app.set("views", viewsPath);
 app.use(express.static(publicFolder));
