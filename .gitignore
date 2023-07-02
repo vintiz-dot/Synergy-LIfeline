@@ -1,4 +1,11 @@
-.parcel-cache/0c77fd9cc0e310eb
+dist
+.env
+.gitignore
+.package-lock.json
+synery.zip
+.parcel-cache
+node_modules
+parcel-cache/0c77fd9cc0e310eb
 node_modules/.package-lock.json
 node_modules/.bin/acorn
 node_modules/.bin/acorn.cmd
@@ -4019,7 +4026,7 @@ node_modules/yaml/types/omap.js
 node_modules/yaml/types/pairs.js
 node_modules/yaml/types/set.js
 node_modules/yaml/types/timestamp.js
-assets/css/style.css
+
 .parcel-cache/0cc0a47917499044
 .parcel-cache/00db249866305aa3
 .parcel-cache/0f27abf5b33bc6f2
@@ -4202,9 +4209,9 @@ assets/css/style.css
 .parcel-cache/feb2447e385ea40c
 .parcel-cache/ffa969c35e3d7136
 .parcel-cache/lock.mdb
-assets/css/style.css
-assets/css/style.css
-assets/css/style.css
+package-lock.json
+package.json
+.gitignore
 .parcel-cache/0a814384ff3dbe2c
 .parcel-cache/0b8c4895234f50ff
 .parcel-cache/1dd7c4186a2bcf61
@@ -4288,3 +4295,6 @@ assets/css/style.css
 .parcel-cache/f73182586c5a3e72
 .parcel-cache/f77374046e42b8c3
 .parcel-cache/fbd8997b0dbc5bfd.txt
+synergy.zip
+package-lock.json
+src/app.js
